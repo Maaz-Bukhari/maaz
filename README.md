@@ -80,9 +80,15 @@ The EmailJS template should accept:
 
 - `from_name`
 - `from_email`
+- `reply_to`
 - `to_name`
 - `to_email`
 - `message`
+
+In the EmailJS template settings, set **To Email** to `{{to_email}}` and
+**Reply To** to `{{reply_to}}`. The **From Email** field should remain the
+address connected to the EmailJS service; email providers generally do not
+allow a visitor's address to be used as the authenticated sender.
 
 The form validates that all configuration values exist before attempting to send. `.env` is excluded from Git and must also be configured in the deployment provider.
 
