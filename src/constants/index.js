@@ -18,6 +18,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  angular,
+  nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -74,6 +76,14 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Next.js",
+    icon: nextjs,
   },
   {
     name: "Redux Toolkit",

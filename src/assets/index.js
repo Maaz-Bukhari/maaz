@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import angular from "./tech/angular.svg";
+import nextjs from "./tech/nextjs.svg";
 
 import jobit from "./jobit.jpg";
 import tripguide from "./tripguide.jpg";
@@ -46,6 +48,8 @@ export {
   tailwind,
   typescript,
   threejs,
+  angular,
+  nextjs,
   jobit,
   tripguide,
 };
