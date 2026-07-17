@@ -6,7 +6,7 @@ The site uses an editorial dark interface, responsive layouts, motion-driven int
 
 ## Live content
 
-- Professional experience from Khan Technologies and Qutham Technologies
+- Professional experience from Khan Technologies and Qutham Technologies, including a full-stack role completed in July 2026
 - Selected project case studies at `/projects/:slug`
 - Angular E-Commerce Platform as the primary featured project
 - Technology stack and development focus
