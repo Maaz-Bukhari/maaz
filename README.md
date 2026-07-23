@@ -111,7 +111,7 @@ src/pages/ProjectPage.jsx
 The contact section downloads the published resume from:
 
 ```text
-public/Syed-Maaz-Bukhari-Resume.pdf
+public/Maaz-Bukhari.pdf
 ```
 
 ## Deployment
