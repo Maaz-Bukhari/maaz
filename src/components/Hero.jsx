@@ -30,7 +30,8 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="hero-title mt-8"
           >
-            I shape ideas into <span>digital clarity.</span>
+            <h4 className="whitespace-nowrap">I shape ideas into</h4>
+            <span>digital clarity.</span>
           </motion.h1>
 
           <motion.p
