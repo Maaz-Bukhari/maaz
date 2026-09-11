@@ -207,8 +207,8 @@ const Contact = () => {
             </button>
             <a
               className="resume-download"
-              href="/Maaz-Bukhari.pdf"
-              download="Maaz-Bukhari.pdf"
+              href="/maaz-noor.pdf"
+              download="maaz-noor.pdf"
             >
               <span>Download my resume</span>
               <i>↓</i>

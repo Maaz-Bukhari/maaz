@@ -39,16 +39,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Javacript Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "React/Next.js Developer",
+    icon: backend,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Angular Developer",
+    icon: mobile,
   },
   {
     title: "Content Creator",
@@ -121,13 +121,13 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Development Intern",
+    title: "Web Development Intern",
     company_name: "Khan Technologies",
     icon: web,
     iconBg: "#d9fb51",
     date: "June 2022 - December 2022",
     points: [
-      "Completed a six-month software development internship focused on practical web application development.",
+      "Completed a six-month web development internship focused on practical web application development.",
       "Built and refined responsive user interfaces while developing production-oriented engineering habits.",
       "Worked with a development team, incorporated feedback, and strengthened debugging and problem-solving skills.",
     ],
@@ -208,72 +208,92 @@ const projects = [
       },
     ],
     image: "/ecommerce-project.svg",
-    source_code_link: "https://github.com/Maaz-Bukhari/angular-ecommerce-platform",
-    live_link: "https://xtore-eight.vercel.app/",
+    source_code_link:
+      "https://github.com/Maaz-Bukhari/angular-ecommerce-platform",
+    live_link: "https://github.com/Maaz-Bukhari/angular-ecommerce-platform",
     category: "Commerce / Full-Stack Platform",
     year: "2026",
     role: "Architecture, frontend & backend",
-    challenge: "A real commerce product needs more than a storefront: customers need a fast and discoverable purchase journey while administrators need secure tools for catalog, stock, orders, users, and media.",
-    solution: "Three independently deployable applications connect an Angular SSR storefront and protected Angular admin panel to a versioned Express API with MongoDB, Cloudinary, JWT authentication, rotating refresh tokens, and server-side authorization.",
-    impact: ["Angular SSR storefront", "Protected admin operations", "Secure versioned REST API"],
+    challenge:
+      "A real commerce product needs more than a storefront: customers need a fast and discoverable purchase journey while administrators need secure tools for catalog, stock, orders, users, and media.",
+    solution:
+      "Three independently deployable applications connect an Angular SSR storefront and protected Angular admin panel to a versioned Express API with MongoDB, Cloudinary, JWT authentication, rotating refresh tokens, and server-side authorization.",
+    impact: [
+      "Angular SSR storefront",
+      "Protected admin operations",
+      "Secure versioned REST API",
+    ],
     accent: "#d9fb51",
   },
   {
-    slug: "job-it",
-    name: "Job IT",
+    slug: "hisaar360-retail-management-system",
+    name: "Hisaar360 - Retail Management System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A retail management platform covering inventory, products, sales, and business operations with responsive dashboards and API-driven data flows.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "restapi",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-    category: "AI Search / Career Tech",
-    year: "2024",
-    role: "Product engineering",
-    challenge: "Job seekers lose time moving between disconnected listings, salary tools, and location services while trying to judge opportunity quality.",
-    solution: "A location-aware workspace combines relevant roles, salary context, and intelligent filtering so users can focus on the strongest opportunities.",
-    impact: ["Contextual discovery", "Salary intelligence", "Location-aware results"],
+    image: "/image.png",
+    source_code_link: "https://github.com/Maaz-Bukhari",
+    live_link: "https://hisaar360.com/",
+    category: "Retail / Management System",
+    year: "2025",
+    role: "Full-Stack Development",
+    challenge:
+      "Managing retail inventory, tracking product sales, and handling business operations efficiently requires structured, real-time data flow and clear administrative workflows.",
+    solution:
+      "Built a comprehensive retail management platform featuring responsive dashboards, real-time stock tracking, reporting, and secure role-based management features.",
+    impact: [
+      "Inventory tracking",
+      "Operational dashboards",
+      "API-driven data flows",
+    ],
     accent: "#70d5ff",
   },
   {
-    slug: "trip-guide",
-    name: "Trip Guide",
+    slug: "ai-powered-real-time-chat-platform",
+    name: "AI-Powered Real-Time Chat Platform",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A full-stack real-time chat platform using React, TypeScript, Node.js, Express.js, and MongoDB featuring Socket.IO messaging and Google Gemini integration.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "ai",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "socket.io",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    category: "Travel / Experience Platform",
-    year: "2025",
-    role: "Design & development",
-    challenge: "Planning a trip means coordinating multiple booking systems while still trying to discover experiences that feel personal and relevant.",
-    solution: "One visual itinerary connects stays, transport, and curated places with a continuous planning experience from inspiration to departure.",
-    impact: ["Connected itinerary", "Curated discovery", "Multi-service booking"],
+    image: "/ai.png",
+    source_code_link: "https://github.com/Maaz-Bukhari/ai-chatbot",
+    category: "AI Systems / Real-Time Platform",
+    year: "2026",
+    role: "Full-Stack & AI Integration",
+    challenge:
+      "Users require seamless, low-latency messaging alongside smart contextual assistance and secure multimedia storage in a unified environment.",
+    solution:
+      "Engineered an end-to-end real-time chat platform leveraging Socket.IO for live presence and typing indicators, integrated with Google Gemini for AI chat capabilities, and secured using JWT authentication with AWS S3 storage.",
+    impact: [
+      "Real-time messaging",
+      "Google Gemini AI integration",
+      "Secure AWS S3 storage",
+    ],
     accent: "#ff735c",
   },
 ];

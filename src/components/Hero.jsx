@@ -21,7 +21,7 @@ const Hero = () => {
             transition={{ duration: 0.7 }}
             className="eyebrow"
           >
-            <span className="status-dot" /> Available for select projects
+            <span className="status-dot" /> Available
           </motion.div>
 
           <motion.h1
@@ -40,7 +40,7 @@ const Hero = () => {
             className="hero-copy mt-7 max-w-[590px]"
           >
             Maaz is a software developer crafting considered interfaces and
-            dependable web products — where clean engineering meets a sharp eye
+            dependable web products where clean engineering meets a sharp eye
             for detail.
           </motion.p>
 
@@ -50,40 +50,93 @@ const Hero = () => {
             transition={{ delay: 0.45 }}
             className="mt-10 flex flex-wrap items-center gap-4"
           >
-            <a className="primary-cta" href="#work">Explore my work <span>↗</span></a>
-            <a className="text-link" href="#contact">Let’s build something <span>→</span></a>
+            <a className="primary-cta" href="#work">
+              Explore my work <span>↗</span>
+            </a>
+            <a className="text-link" href="#contact">
+              Let’s build something <span>→</span>
+            </a>
           </motion.div>
 
           <div className="hero-meta mt-16">
-            <div><strong>01</strong><span>Design-minded<br />development</span></div>
-            <div><strong>02</strong><span>Responsive by<br />default</span></div>
-            <div><strong>03</strong><span>Built for real<br />people</span></div>
+            <div>
+              <strong>01</strong>
+              <span>
+                Design-minded
+                <br />
+                development
+              </span>
+            </div>
+            <div>
+              <strong>02</strong>
+              <span>
+                Responsive by
+                <br />
+                default
+              </span>
+            </div>
+            <div>
+              <strong>03</strong>
+              <span>
+                Built for real
+                <br />
+                people
+              </span>
+            </div>
           </div>
         </div>
 
         <div className="relative mx-auto hidden h-[590px] w-full max-w-[590px] sm:block">
-          <motion.div animate={{ rotate: 360 }} transition={{ duration: 34, repeat: Infinity, ease: "linear" }} className="orbit orbit-outer">
+          <motion.div
+            animate={{ rotate: 360 }}
+            transition={{ duration: 34, repeat: Infinity, ease: "linear" }}
+            className="orbit orbit-outer"
+          >
             <span className="orbit-node" />
           </motion.div>
-          <motion.div animate={{ rotate: -360 }} transition={{ duration: 22, repeat: Infinity, ease: "linear" }} className="orbit orbit-inner">
+          <motion.div
+            animate={{ rotate: -360 }}
+            transition={{ duration: 22, repeat: Infinity, ease: "linear" }}
+            className="orbit orbit-inner"
+          >
             <span className="orbit-node second" />
           </motion.div>
           <motion.div animate={floating(6)} className="sculpture-card">
-            <div className="sculpture-topline"><span>MAAZ / 26</span><span>CREATIVE DEV</span></div>
+            <div className="sculpture-topline">
+              <span>MAAZ / 26</span>
+              <span>CREATIVE DEV</span>
+            </div>
             <div className="sculpture-object">
               <div className="chrome-ring ring-a" />
               <div className="chrome-ring ring-b" />
-              <div className="core-sphere"><span /></div>
+              <div className="core-sphere">
+                <span />
+              </div>
             </div>
-            <div className="sculpture-caption"><span>Digital systems</span><span>35.6762° N</span></div>
+            <div className="sculpture-caption">
+              <span>Digital systems</span>
+              <span>35.6762° N</span>
+            </div>
           </motion.div>
-          <motion.div animate={floating(4.8, .3)} className="float-chip chip-one">UI / UX <span>✦</span></motion.div>
-          <motion.div animate={floating(5.5, .8)} className="float-chip chip-two"><span className="mini-wave">〰</span> Clean code</motion.div>
+          <motion.div
+            animate={floating(4.8, 0.3)}
+            className="float-chip chip-one"
+          >
+            UI / UX <span>✦</span>
+          </motion.div>
+          <motion.div
+            animate={floating(5.5, 0.8)}
+            className="float-chip chip-two"
+          >
+            <span className="mini-wave">〰</span> Clean code
+          </motion.div>
           <div className="coordinate-label">FIG. 01 — FORM &amp; FUNCTION</div>
         </div>
       </div>
 
-      <a href="#about" className="scroll-cue"><span /> Scroll to discover</a>
+      <a href="#about" className="scroll-cue">
+        <span /> Scroll to discover
+      </a>
     </section>
   );
 };
